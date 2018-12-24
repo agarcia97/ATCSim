@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 /usr/bin/c++   -g -Wno-deprecated-declarations -Wall -Wpedantic -Wextra  -g   CMakeFiles/cppgui.dir/src/CppGUI/GUI.cpp.o CMakeFiles/cppgui.dir/src/CppGUI/TextDisplay.cpp.o CMakeFiles/cppgui.dir/src/ICE/cpp/ATCDisplay.cpp.o CMakeFiles/cppgui.dir/src/CppGUI/cppgui.cpp.o  -o cppgui /usr/lib/x86_64-linux-gnu/libIce.so -lpthread /usr/lib/x86_64-linux-gnu/libGL.so /usr/lib/x86_64-linux-gnu/libGLU.so /usr/lib/x86_64-linux-gnu/libglut.so 
+=======
+/usr/bin/c++  -g -Wno-deprecated-declarations -Wall -Wpedantic -Wextra    CMakeFiles/cppgui.dir/src/CppGUI/GUI.cpp.o CMakeFiles/cppgui.dir/src/CppGUI/TextDisplay.cpp.o CMakeFiles/cppgui.dir/src/ICE/cpp/ATCDisplay.cpp.o CMakeFiles/cppgui.dir/src/CppGUI/cppgui.cpp.o  -o cppgui /usr/lib/x86_64-linux-gnu/libIce.so -lpthread /usr/lib/x86_64-linux-gnu/libGL.so /usr/lib/x86_64-linux-gnu/libGLU.so /usr/lib/x86_64-linux-gnu/libglut.so 
+>>>>>>> 838c4602b1a88e07e8b107f21fdbd55b1909d7eb

@@ -7,14 +7,22 @@
 #IncludeRegexTransform: 
 
 ../src/lib/Common.h
+<<<<<<< HEAD
 stdlib.h
 -
+=======
+>>>>>>> 838c4602b1a88e07e8b107f21fdbd55b1909d7eb
 cmath
 -
 cstdlib
 -
 string
 -
+<<<<<<< HEAD
+=======
+stdlib.h
+-
+>>>>>>> 838c4602b1a88e07e8b107f21fdbd55b1909d7eb
 
 ../src/simulator/Flight.h
 string
@@ -27,10 +35,13 @@ list
 -
 
 ../src/simulator/Position.h
+<<<<<<< HEAD
 Common.h
 ../src/simulator/Common.h
 string
 -
+=======
+>>>>>>> 838c4602b1a88e07e8b107f21fdbd55b1909d7eb
 
 /home/alberto/Documentos/git_ATC/ATCSim/test/Flight_test.cpp
 iostream

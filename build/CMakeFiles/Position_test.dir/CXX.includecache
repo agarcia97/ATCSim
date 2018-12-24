@@ -6,6 +6,7 @@
 
 #IncludeRegexTransform: 
 
+<<<<<<< HEAD
 ../src/lib/Common.h
 stdlib.h
 -
@@ -21,6 +22,9 @@ Common.h
 ../src/simulator/Common.h
 string
 -
+=======
+../src/simulator/Position.h
+>>>>>>> 838c4602b1a88e07e8b107f21fdbd55b1909d7eb
 
 /home/alberto/Documentos/git_ATC/ATCSim/test/Position_test.cpp
 iostream

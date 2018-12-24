@@ -45,17 +45,28 @@ IceUtil/PopDisableWarnings.h
 -
 
 ../src/lib/Common.h
+<<<<<<< HEAD
 stdlib.h
 -
+=======
+>>>>>>> 838c4602b1a88e07e8b107f21fdbd55b1909d7eb
 cmath
 -
 cstdlib
 -
 string
 -
+<<<<<<< HEAD
 
 ../src/lib/Singleton.h
 string
+=======
+stdlib.h
+-
+
+../src/lib/Singleton.h
+iostream
+>>>>>>> 838c4602b1a88e07e8b107f21fdbd55b1909d7eb
 -
 
 /home/alberto/Documentos/git_ATC/ATCSim/src/ICE/cpp/ATCDisplay.cpp
@@ -87,8 +98,11 @@ Position.h
 /home/alberto/Documentos/git_ATC/ATCSim/src/simulator/Position.h
 list
 -
+<<<<<<< HEAD
 fstream
 -
+=======
+>>>>>>> 838c4602b1a88e07e8b107f21fdbd55b1909d7eb
 
 /home/alberto/Documentos/git_ATC/ATCSim/src/simulator/AirController.h
 Singleton.h
@@ -169,10 +183,13 @@ math.h
 -
 
 /home/alberto/Documentos/git_ATC/ATCSim/src/simulator/Position.h
+<<<<<<< HEAD
 Common.h
 /home/alberto/Documentos/git_ATC/ATCSim/src/simulator/Common.h
 string
 -
+=======
+>>>>>>> 838c4602b1a88e07e8b107f21fdbd55b1909d7eb
 
 /home/alberto/Documentos/git_ATC/ATCSim/src/simulator/Storm.cpp
 Storm.h

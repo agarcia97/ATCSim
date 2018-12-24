@@ -1,5 +1,6 @@
 # Hashes of file build rules.
 2c71bafb69088ea6b8d7439adba5fc25 ../src/ICE/cpp/ATCDisplay.cpp
+<<<<<<< HEAD
 95abb2d2a6cf9a2d6ea89777ebff08b5 CMakeFiles/ATCSim_cpplint
 6817b45b452c3cab6f2740531b88b018 CMakeFiles/cppgui_cpplint
 0c4a6890deea13937dfbb4ca6936a79e CMakeFiles/googletest
@@ -7,6 +8,15 @@
 f8213d383e746ad81183e6cb6ba2ee58 googletest-prefix/src/googletest-stamp/googletest-build
 8a75333e3694066cd482cfcb31ec8f12 googletest-prefix/src/googletest-stamp/googletest-configure
 7d3058393e89bb02ef71f0662b111a1c googletest-prefix/src/googletest-stamp/googletest-download
+=======
+43e4c042f0cbc5cb4b2d2f18472275bb CMakeFiles/ATCSim_cpplint
+69d7ba179b5b9c8cff4a7cec042faca9 CMakeFiles/cppgui_cpplint
+0c4a6890deea13937dfbb4ca6936a79e CMakeFiles/googletest
+6874c4be06ac7f3d674c7153cbe23d1d CMakeFiles/googletest-complete
+fb0c27dc83e8390c8969f3413be98564 googletest-prefix/src/googletest-stamp/googletest-build
+83034df3bd83c17ec3236e2a8ddce9c7 googletest-prefix/src/googletest-stamp/googletest-configure
+826b0644d8639c129c59690251285cf5 googletest-prefix/src/googletest-stamp/googletest-download
+>>>>>>> 838c4602b1a88e07e8b107f21fdbd55b1909d7eb
 ebc50dea5264e83e286232097662fd08 googletest-prefix/src/googletest-stamp/googletest-install
 d0b7532dfa900e7834e2842c4175879a googletest-prefix/src/googletest-stamp/googletest-mkdir
 9ec2ff37170bbbd659126a963f38589b googletest-prefix/src/googletest-stamp/googletest-patch

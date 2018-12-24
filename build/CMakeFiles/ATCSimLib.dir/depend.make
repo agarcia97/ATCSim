@@ -38,7 +38,10 @@ CMakeFiles/ATCSimLib.dir/src/simulator/IceComms.cpp.o: ../src/simulator/IceComms
 CMakeFiles/ATCSimLib.dir/src/simulator/IceComms.cpp.o: ../src/simulator/Position.h
 CMakeFiles/ATCSimLib.dir/src/simulator/IceComms.cpp.o: ../src/simulator/Storm.h
 
+<<<<<<< HEAD
 CMakeFiles/ATCSimLib.dir/src/simulator/Position.cpp.o: ../src/lib/Common.h
+=======
+>>>>>>> 838c4602b1a88e07e8b107f21fdbd55b1909d7eb
 CMakeFiles/ATCSimLib.dir/src/simulator/Position.cpp.o: ../src/simulator/Position.cpp
 CMakeFiles/ATCSimLib.dir/src/simulator/Position.cpp.o: ../src/simulator/Position.h
 

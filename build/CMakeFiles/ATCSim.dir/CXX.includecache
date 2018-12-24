@@ -4,7 +4,7 @@
 
 #IncludeRegexComplain: ^$
 
-#IncludeRegexTransform: 
+#IncludeRegexTransform:
 
 ../src/ICE/cpp/ATCDisplay.h
 IceUtil/PushDisableWarnings.h
@@ -117,4 +117,3 @@ Position.h
 /home/alberto/Documentos/git_ATC/ATCSim/src/simulator/Position.h
 Common.h
 /home/alberto/Documentos/git_ATC/ATCSim/src/simulator/Common.h
-
