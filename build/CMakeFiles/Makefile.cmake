@@ -56,15 +56,9 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "googletest-prefix/src/googletest-stamp/googletest-gitinfo.txt"
   "googletest-prefix/tmp/googletest-cfgcmd.txt"
-<<<<<<< HEAD
   "googletest-prefix/src/googletest-stamp/googletest-download-Debug.cmake"
   "googletest-prefix/src/googletest-stamp/googletest-configure-Debug.cmake"
   "googletest-prefix/src/googletest-stamp/googletest-build-Debug.cmake"
-=======
-  "googletest-prefix/src/googletest-stamp/googletest-download-.cmake"
-  "googletest-prefix/src/googletest-stamp/googletest-configure-.cmake"
-  "googletest-prefix/src/googletest-stamp/googletest-build-.cmake"
->>>>>>> 838c4602b1a88e07e8b107f21fdbd55b1909d7eb
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 

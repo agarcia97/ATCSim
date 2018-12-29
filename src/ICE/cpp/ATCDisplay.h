@@ -66,23 +66,14 @@ namespace ATCDisplay
 
 struct ATCDPosition
 {
-<<<<<<< HEAD
     ::std::string name;
-=======
->>>>>>> 838c4602b1a88e07e8b107f21fdbd55b1909d7eb
     float x;
     float y;
     float z;
 
-<<<<<<< HEAD
     std::tuple<const ::std::string&, const float&, const float&, const float&> ice_tuple() const
     {
         return std::tie(name, x, y, z);
-=======
-    std::tuple<const float&, const float&, const float&> ice_tuple() const
-    {
-        return std::tie(x, y, z);
->>>>>>> 838c4602b1a88e07e8b107f21fdbd55b1909d7eb
     }
 };
 
@@ -413,13 +404,8 @@ template<>
 struct StreamableTraits<::ATCDisplay::ATCDPosition>
 {
     static const StreamHelperCategory helper = StreamHelperCategoryStruct;
-<<<<<<< HEAD
     static const int minWireSize = 13;
     static const bool fixedLength = false;
-=======
-    static const int minWireSize = 12;
-    static const bool fixedLength = true;
->>>>>>> 838c4602b1a88e07e8b107f21fdbd55b1909d7eb
 };
 
 template<typename S>
@@ -427,11 +413,7 @@ struct StreamReader<::ATCDisplay::ATCDPosition, S>
 {
     static void read(S* istr, ::ATCDisplay::ATCDPosition& v)
     {
-<<<<<<< HEAD
         istr->readAll(v.name, v.x, v.y, v.z);
-=======
-        istr->readAll(v.x, v.y, v.z);
->>>>>>> 838c4602b1a88e07e8b107f21fdbd55b1909d7eb
     }
 };
 
@@ -439,13 +421,8 @@ template<>
 struct StreamableTraits<::ATCDisplay::ATCDStorm>
 {
     static const StreamHelperCategory helper = StreamHelperCategoryStruct;
-<<<<<<< HEAD
     static const int minWireSize = 30;
     static const bool fixedLength = false;
-=======
-    static const int minWireSize = 29;
-    static const bool fixedLength = true;
->>>>>>> 838c4602b1a88e07e8b107f21fdbd55b1909d7eb
 };
 
 template<typename S>
@@ -461,11 +438,7 @@ template<>
 struct StreamableTraits<::ATCDisplay::ATCDFlight>
 {
     static const StreamHelperCategory helper = StreamHelperCategoryStruct;
-<<<<<<< HEAD
     static const int minWireSize = 36;
-=======
-    static const int minWireSize = 35;
->>>>>>> 838c4602b1a88e07e8b107f21fdbd55b1909d7eb
     static const bool fixedLength = false;
 };
 
@@ -482,13 +455,8 @@ template<>
 struct StreamableTraits<::ATCDisplay::ATCDLandStrip>
 {
     static const StreamHelperCategory helper = StreamHelperCategoryStruct;
-<<<<<<< HEAD
     static const int minWireSize = 25;
     static const bool fixedLength = false;
-=======
-    static const int minWireSize = 24;
-    static const bool fixedLength = true;
->>>>>>> 838c4602b1a88e07e8b107f21fdbd55b1909d7eb
 };
 
 template<typename S>
@@ -560,10 +528,7 @@ namespace ATCDisplay
 
 struct ATCDPosition
 {
-<<<<<<< HEAD
     ::std::string name;
-=======
->>>>>>> 838c4602b1a88e07e8b107f21fdbd55b1909d7eb
     ::Ice::Float x;
     ::Ice::Float y;
     ::Ice::Float z;
@@ -1037,13 +1002,8 @@ template<>
 struct StreamableTraits< ::ATCDisplay::ATCDPosition>
 {
     static const StreamHelperCategory helper = StreamHelperCategoryStruct;
-<<<<<<< HEAD
     static const int minWireSize = 13;
     static const bool fixedLength = false;
-=======
-    static const int minWireSize = 12;
-    static const bool fixedLength = true;
->>>>>>> 838c4602b1a88e07e8b107f21fdbd55b1909d7eb
 };
 
 template<typename S>
@@ -1051,10 +1011,7 @@ struct StreamWriter< ::ATCDisplay::ATCDPosition, S>
 {
     static void write(S* ostr, const ::ATCDisplay::ATCDPosition& v)
     {
-<<<<<<< HEAD
         ostr->write(v.name);
-=======
->>>>>>> 838c4602b1a88e07e8b107f21fdbd55b1909d7eb
         ostr->write(v.x);
         ostr->write(v.y);
         ostr->write(v.z);
@@ -1066,10 +1023,7 @@ struct StreamReader< ::ATCDisplay::ATCDPosition, S>
 {
     static void read(S* istr, ::ATCDisplay::ATCDPosition& v)
     {
-<<<<<<< HEAD
         istr->read(v.name);
-=======
->>>>>>> 838c4602b1a88e07e8b107f21fdbd55b1909d7eb
         istr->read(v.x);
         istr->read(v.y);
         istr->read(v.z);
@@ -1080,13 +1034,8 @@ template<>
 struct StreamableTraits< ::ATCDisplay::ATCDStorm>
 {
     static const StreamHelperCategory helper = StreamHelperCategoryStruct;
-<<<<<<< HEAD
     static const int minWireSize = 30;
     static const bool fixedLength = false;
-=======
-    static const int minWireSize = 29;
-    static const bool fixedLength = true;
->>>>>>> 838c4602b1a88e07e8b107f21fdbd55b1909d7eb
 };
 
 template<typename S>
@@ -1121,11 +1070,7 @@ template<>
 struct StreamableTraits< ::ATCDisplay::ATCDFlight>
 {
     static const StreamHelperCategory helper = StreamHelperCategoryStruct;
-<<<<<<< HEAD
     static const int minWireSize = 36;
-=======
-    static const int minWireSize = 35;
->>>>>>> 838c4602b1a88e07e8b107f21fdbd55b1909d7eb
     static const bool fixedLength = false;
 };
 
@@ -1167,13 +1112,8 @@ template<>
 struct StreamableTraits< ::ATCDisplay::ATCDLandStrip>
 {
     static const StreamHelperCategory helper = StreamHelperCategoryStruct;
-<<<<<<< HEAD
     static const int minWireSize = 25;
     static const bool fixedLength = false;
-=======
-    static const int minWireSize = 24;
-    static const bool fixedLength = true;
->>>>>>> 838c4602b1a88e07e8b107f21fdbd55b1909d7eb
 };
 
 template<typename S>

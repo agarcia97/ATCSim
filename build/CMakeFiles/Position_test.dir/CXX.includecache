@@ -6,7 +6,6 @@
 
 #IncludeRegexTransform: 
 
-<<<<<<< HEAD
 ../src/lib/Common.h
 stdlib.h
 -
@@ -22,9 +21,6 @@ Common.h
 ../src/simulator/Common.h
 string
 -
-=======
-../src/simulator/Position.h
->>>>>>> 838c4602b1a88e07e8b107f21fdbd55b1909d7eb
 
 /home/alberto/Documentos/git_ATC/ATCSim/test/Position_test.cpp
 iostream
@@ -45,12 +41,12 @@ ostream
 -
 string
 -
+gtest/gtest-printers.h
+googletest-prefix/src/googletest/googletest/include/gtest/gtest/gtest-printers.h
 gtest/internal/gtest-internal.h
 googletest-prefix/src/googletest/googletest/include/gtest/gtest/internal/gtest-internal.h
 gtest/internal/gtest-port.h
 googletest-prefix/src/googletest/googletest/include/gtest/gtest/internal/gtest-port.h
-gtest/gtest-printers.h
-googletest-prefix/src/googletest/googletest/include/gtest/gtest/gtest-printers.h
 
 googletest-prefix/src/googletest/googletest/include/gtest/gtest-message.h
 limits
@@ -161,6 +157,8 @@ googletest-prefix/src/googletest/googletest/include/gtest/internal/custom/gtest-
 googletest-prefix/src/googletest/googletest/include/gtest/internal/custom/gtest-printers.h
 
 googletest-prefix/src/googletest/googletest/include/gtest/internal/gtest-death-test-internal.h
+gtest/gtest-matchers.h
+googletest-prefix/src/googletest/googletest/include/gtest/internal/gtest/gtest-matchers.h
 gtest/internal/gtest-internal.h
 googletest-prefix/src/googletest/googletest/include/gtest/internal/gtest/internal/gtest-internal.h
 stdio.h
@@ -213,7 +211,7 @@ gtest/internal/gtest-type-util.h
 googletest-prefix/src/googletest/googletest/include/gtest/internal/gtest/internal/gtest-type-util.h
 
 googletest-prefix/src/googletest/googletest/include/gtest/internal/gtest-param-util-generated.h
-cassert
+assert.h
 -
 memory
 -

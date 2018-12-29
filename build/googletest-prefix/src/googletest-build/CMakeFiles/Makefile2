@@ -85,13 +85,8 @@ googlemock/preinstall: googlemock/gtest/preinstall
 # Target rules for target googlemock/CMakeFiles/gmock_main.dir
 
 # All Build rule for target.
-<<<<<<< HEAD
-googlemock/CMakeFiles/gmock_main.dir/all: googlemock/CMakeFiles/gmock.dir/all
-googlemock/CMakeFiles/gmock_main.dir/all: googlemock/gtest/CMakeFiles/gtest.dir/all
-=======
 googlemock/CMakeFiles/gmock_main.dir/all: googlemock/gtest/CMakeFiles/gtest.dir/all
 googlemock/CMakeFiles/gmock_main.dir/all: googlemock/CMakeFiles/gmock.dir/all
->>>>>>> 838c4602b1a88e07e8b107f21fdbd55b1909d7eb
 	$(MAKE) -f googlemock/CMakeFiles/gmock_main.dir/build.make googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f googlemock/CMakeFiles/gmock_main.dir/build.make googlemock/CMakeFiles/gmock_main.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alberto/Documentos/git_ATC/ATCSim/build/googletest-prefix/src/googletest-build/CMakeFiles --progress-num=3,4 "Built target gmock_main"

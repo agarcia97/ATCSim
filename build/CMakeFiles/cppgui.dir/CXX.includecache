@@ -45,28 +45,17 @@ IceUtil/PopDisableWarnings.h
 -
 
 ../src/lib/Common.h
-<<<<<<< HEAD
 stdlib.h
 -
-=======
->>>>>>> 838c4602b1a88e07e8b107f21fdbd55b1909d7eb
 cmath
 -
 cstdlib
 -
 string
 -
-<<<<<<< HEAD
 
 ../src/lib/Singleton.h
 string
-=======
-stdlib.h
--
-
-../src/lib/Singleton.h
-iostream
->>>>>>> 838c4602b1a88e07e8b107f21fdbd55b1909d7eb
 -
 
 /home/alberto/Documentos/git_ATC/ATCSim/src/CppGUI/GUI.cpp
@@ -80,22 +69,16 @@ GL/glu.h
 -
 GL/gl.h
 -
-<<<<<<< HEAD
 iomanip
 -
-=======
->>>>>>> 838c4602b1a88e07e8b107f21fdbd55b1909d7eb
 iostream
 -
 math.h
 -
-<<<<<<< HEAD
 string
 -
 vector
 -
-=======
->>>>>>> 838c4602b1a88e07e8b107f21fdbd55b1909d7eb
 colours.h
 /home/alberto/Documentos/git_ATC/ATCSim/src/CppGUI/colours.h
 Common.h
@@ -114,22 +97,13 @@ vector
 /home/alberto/Documentos/git_ATC/ATCSim/src/CppGUI/TextDisplay.cpp
 TextDisplay.h
 /home/alberto/Documentos/git_ATC/ATCSim/src/CppGUI/TextDisplay.h
-<<<<<<< HEAD
-=======
-TextDisplay.h
-/home/alberto/Documentos/git_ATC/ATCSim/src/CppGUI/TextDisplay.h
->>>>>>> 838c4602b1a88e07e8b107f21fdbd55b1909d7eb
 string
 -
 
 /home/alberto/Documentos/git_ATC/ATCSim/src/CppGUI/TextDisplay.h
 stdio.h
 -
-<<<<<<< HEAD
 string
-=======
-string.h
->>>>>>> 838c4602b1a88e07e8b107f21fdbd55b1909d7eb
 -
 OpenGL/gl.h
 -
@@ -157,11 +131,8 @@ ATCDisplay.h
 /home/alberto/Documentos/git_ATC/ATCSim/src/CppGUI/ATCDisplay.h
 time.h
 -
-<<<<<<< HEAD
 string
 -
-=======
->>>>>>> 838c4602b1a88e07e8b107f21fdbd55b1909d7eb
 
 /home/alberto/Documentos/git_ATC/ATCSim/src/ICE/cpp/ATCDisplay.cpp
 ATCDisplay.h

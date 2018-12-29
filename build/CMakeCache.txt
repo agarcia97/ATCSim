@@ -382,12 +382,6 @@ OPENGL_xmesa_INCLUDE_DIR:PATH=OPENGL_xmesa_INCLUDE_DIR-NOTFOUND
 //Path to a program.
 PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python
 
-//Path to a library.
-ice_lib:FILEPATH=/usr/lib/x86_64-linux-gnu/libIce.so
-
-//Path to a library.
-iceutil_lib:FILEPATH=iceutil_lib-NOTFOUND
-
 
 ########################
 # INTERNAL cache entries

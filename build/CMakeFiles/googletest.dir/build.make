@@ -87,11 +87,7 @@ googletest-prefix/src/googletest-stamp/googletest-mkdir:
 googletest-prefix/src/googletest-stamp/googletest-download: googletest-prefix/src/googletest-stamp/googletest-gitinfo.txt
 googletest-prefix/src/googletest-stamp/googletest-download: googletest-prefix/src/googletest-stamp/googletest-mkdir
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alberto/Documentos/git_ATC/ATCSim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'googletest'"
-<<<<<<< HEAD
 	cd /home/alberto/Documentos/git_ATC/ATCSim/build/googletest-prefix/src && /usr/bin/cmake -P /home/alberto/Documentos/git_ATC/ATCSim/build/googletest-prefix/src/googletest-stamp/googletest-download-Debug.cmake
-=======
-	cd /home/alberto/Documentos/git_ATC/ATCSim/build/googletest-prefix/src && /usr/bin/cmake -P /home/alberto/Documentos/git_ATC/ATCSim/build/googletest-prefix/src/googletest-stamp/googletest-download-.cmake
->>>>>>> 838c4602b1a88e07e8b107f21fdbd55b1909d7eb
 	cd /home/alberto/Documentos/git_ATC/ATCSim/build/googletest-prefix/src && /usr/bin/cmake -E touch /home/alberto/Documentos/git_ATC/ATCSim/build/googletest-prefix/src/googletest-stamp/googletest-download
 
 googletest-prefix/src/googletest-stamp/googletest-update: googletest-prefix/src/googletest-stamp/googletest-download
@@ -108,20 +104,12 @@ googletest-prefix/src/googletest-stamp/googletest-configure: googletest-prefix/t
 googletest-prefix/src/googletest-stamp/googletest-configure: googletest-prefix/src/googletest-stamp/googletest-update
 googletest-prefix/src/googletest-stamp/googletest-configure: googletest-prefix/src/googletest-stamp/googletest-patch
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alberto/Documentos/git_ATC/ATCSim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'googletest'"
-<<<<<<< HEAD
 	cd /home/alberto/Documentos/git_ATC/ATCSim/build/googletest-prefix/src/googletest-build && /usr/bin/cmake -P /home/alberto/Documentos/git_ATC/ATCSim/build/googletest-prefix/src/googletest-stamp/googletest-configure-Debug.cmake
-=======
-	cd /home/alberto/Documentos/git_ATC/ATCSim/build/googletest-prefix/src/googletest-build && /usr/bin/cmake -P /home/alberto/Documentos/git_ATC/ATCSim/build/googletest-prefix/src/googletest-stamp/googletest-configure-.cmake
->>>>>>> 838c4602b1a88e07e8b107f21fdbd55b1909d7eb
 	cd /home/alberto/Documentos/git_ATC/ATCSim/build/googletest-prefix/src/googletest-build && /usr/bin/cmake -E touch /home/alberto/Documentos/git_ATC/ATCSim/build/googletest-prefix/src/googletest-stamp/googletest-configure
 
 googletest-prefix/src/googletest-stamp/googletest-build: googletest-prefix/src/googletest-stamp/googletest-configure
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alberto/Documentos/git_ATC/ATCSim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'googletest'"
-<<<<<<< HEAD
 	cd /home/alberto/Documentos/git_ATC/ATCSim/build/googletest-prefix/src/googletest-build && /usr/bin/cmake -Dmake=$(MAKE) -P /home/alberto/Documentos/git_ATC/ATCSim/build/googletest-prefix/src/googletest-stamp/googletest-build-Debug.cmake
-=======
-	cd /home/alberto/Documentos/git_ATC/ATCSim/build/googletest-prefix/src/googletest-build && /usr/bin/cmake -Dmake=$(MAKE) -P /home/alberto/Documentos/git_ATC/ATCSim/build/googletest-prefix/src/googletest-stamp/googletest-build-.cmake
->>>>>>> 838c4602b1a88e07e8b107f21fdbd55b1909d7eb
 	cd /home/alberto/Documentos/git_ATC/ATCSim/build/googletest-prefix/src/googletest-build && /usr/bin/cmake -E touch /home/alberto/Documentos/git_ATC/ATCSim/build/googletest-prefix/src/googletest-stamp/googletest-build
 
 googletest: CMakeFiles/googletest

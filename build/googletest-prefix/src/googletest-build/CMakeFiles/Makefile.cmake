@@ -10,11 +10,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.10.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.10.2/CMakeSystem.cmake"
-<<<<<<< HEAD
-=======
   "CMakeFiles/feature_tests.c"
   "CMakeFiles/feature_tests.cxx"
->>>>>>> 838c4602b1a88e07e8b107f21fdbd55b1909d7eb
   "/home/alberto/Documentos/git_ATC/ATCSim/build/googletest-prefix/src/googletest/CMakeLists.txt"
   "/home/alberto/Documentos/git_ATC/ATCSim/build/googletest-prefix/src/googletest/googlemock/CMakeLists.txt"
   "/home/alberto/Documentos/git_ATC/ATCSim/build/googletest-prefix/src/googletest/googlemock/cmake/gmock.pc.in"
@@ -25,24 +22,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/alberto/Documentos/git_ATC/ATCSim/build/googletest-prefix/src/googletest/googletest/cmake/gtest_main.pc.in"
   "/home/alberto/Documentos/git_ATC/ATCSim/build/googletest-prefix/src/googletest/googletest/cmake/internal_utils.cmake"
   "/usr/share/cmake-3.10/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
-<<<<<<< HEAD
-  "/usr/share/cmake-3.10/Modules/CMakeCInformation.cmake"
-  "/usr/share/cmake-3.10/Modules/CMakeCXXInformation.cmake"
-  "/usr/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake"
-  "/usr/share/cmake-3.10/Modules/CMakeDependentOption.cmake"
-  "/usr/share/cmake-3.10/Modules/CMakeGenericSystem.cmake"
-  "/usr/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake"
-  "/usr/share/cmake-3.10/Modules/CMakePackageConfigHelpers.cmake"
-  "/usr/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake"
-  "/usr/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake"
-  "/usr/share/cmake-3.10/Modules/CheckIncludeFile.cmake"
-  "/usr/share/cmake-3.10/Modules/CheckLibraryExists.cmake"
-  "/usr/share/cmake-3.10/Modules/CheckSymbolExists.cmake"
-  "/usr/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
-  "/usr/share/cmake-3.10/Modules/Compiler/GNU-C.cmake"
-  "/usr/share/cmake-3.10/Modules/Compiler/GNU-CXX.cmake"
-  "/usr/share/cmake-3.10/Modules/Compiler/GNU.cmake"
-=======
   "/usr/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in"
   "/usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c"
   "/usr/share/cmake-3.10/Modules/CMakeCInformation.cmake"
@@ -72,7 +51,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.10/Modules/CMakeTestCXXCompiler.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeUnixFindMake.cmake"
-  "/usr/share/cmake-3.10/Modules/CheckForPthreads.c"
+  "/usr/share/cmake-3.10/Modules/CheckFunctionExists.c"
   "/usr/share/cmake-3.10/Modules/CheckIncludeFile.c.in"
   "/usr/share/cmake-3.10/Modules/CheckIncludeFile.cmake"
   "/usr/share/cmake-3.10/Modules/CheckLibraryExists.cmake"
@@ -125,17 +104,13 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.10/Modules/Compiler/XL-CXX-DetermineCompiler.cmake"
   "/usr/share/cmake-3.10/Modules/Compiler/zOS-C-DetermineCompiler.cmake"
   "/usr/share/cmake-3.10/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake"
->>>>>>> 838c4602b1a88e07e8b107f21fdbd55b1909d7eb
   "/usr/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake"
   "/usr/share/cmake-3.10/Modules/FindPackageMessage.cmake"
   "/usr/share/cmake-3.10/Modules/FindPythonInterp.cmake"
   "/usr/share/cmake-3.10/Modules/FindThreads.cmake"
   "/usr/share/cmake-3.10/Modules/GNUInstallDirs.cmake"
-<<<<<<< HEAD
-=======
   "/usr/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake"
   "/usr/share/cmake-3.10/Modules/Platform/Linux-Determine-CXX.cmake"
->>>>>>> 838c4602b1a88e07e8b107f21fdbd55b1909d7eb
   "/usr/share/cmake-3.10/Modules/Platform/Linux-GNU-C.cmake"
   "/usr/share/cmake-3.10/Modules/Platform/Linux-GNU-CXX.cmake"
   "/usr/share/cmake-3.10/Modules/Platform/Linux-GNU.cmake"
@@ -152,14 +127,11 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-<<<<<<< HEAD
-=======
   "CMakeFiles/3.10.2/CMakeSystem.cmake"
   "CMakeFiles/3.10.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.10.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"
->>>>>>> 838c4602b1a88e07e8b107f21fdbd55b1909d7eb
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "googlemock/CMakeFiles/CMakeDirectoryInformation.cmake"
   "googlemock/gtest/CMakeFiles/CMakeDirectoryInformation.cmake"

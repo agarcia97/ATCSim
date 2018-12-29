@@ -63,8 +63,8 @@ CMAKE_BINARY_DIR = /home/alberto/Documentos/git_ATC/ATCSim/build
 # Target rules for target CMakeFiles/Position_test.dir
 
 # All Build rule for target.
-CMakeFiles/Position_test.dir/all: CMakeFiles/ATCSimLib.dir/all
 CMakeFiles/Position_test.dir/all: CMakeFiles/googletest.dir/all
+CMakeFiles/Position_test.dir/all: CMakeFiles/ATCSimLib.dir/all
 	$(MAKE) -f CMakeFiles/Position_test.dir/build.make CMakeFiles/Position_test.dir/depend
 	$(MAKE) -f CMakeFiles/Position_test.dir/build.make CMakeFiles/Position_test.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alberto/Documentos/git_ATC/ATCSim/build/CMakeFiles --progress-num=15,16 "Built target Position_test"
@@ -138,8 +138,8 @@ clean: CMakeFiles/ATCSim.dir/clean
 # Target rules for target CMakeFiles/Flight_test.dir
 
 # All Build rule for target.
-CMakeFiles/Flight_test.dir/all: CMakeFiles/ATCSimLib.dir/all
 CMakeFiles/Flight_test.dir/all: CMakeFiles/googletest.dir/all
+CMakeFiles/Flight_test.dir/all: CMakeFiles/ATCSimLib.dir/all
 	$(MAKE) -f CMakeFiles/Flight_test.dir/build.make CMakeFiles/Flight_test.dir/depend
 	$(MAKE) -f CMakeFiles/Flight_test.dir/build.make CMakeFiles/Flight_test.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alberto/Documentos/git_ATC/ATCSim/build/CMakeFiles --progress-num=13,14 "Built target Flight_test"
