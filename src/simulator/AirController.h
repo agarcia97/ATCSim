@@ -27,6 +27,14 @@
 
 #include "Singleton.h"
 
+#include "Airport.h"
+#include "Flight.h"
+#include "Position.h"
+#include <list>
+#include <fstream>
+#include <cmath>
+#include "Common.h"
+
 namespace atcsim{
 
 class AirController: public Singleton<AirController> {
@@ -34,6 +42,9 @@ public:
 	AirController();
 	virtual ~AirController();
 
+	bool anyland(std::list<Flight*> flights, std::string id);
+	bool freeCP_1(std::list<Flight*> flights, Position pos_14, Position pos_15); //para circuitos 1 y 3
+	bool freeCP_2(std::list<Flight*> flights, Position pos_1, Position pos_15); //para circuitos 2 y 4
 	void doWork();
 };
 
