@@ -111,7 +111,7 @@ Flight::update(float delta_t)
 
 		//std::cout<<"["<<id<<"]speed = "<<speed<<"\tnew = "<<goal_speed<<"\t["<<acc<<"]\t"<<std::endl;
 
-		//avion gira antes de llegar al CP
+		//gire antes de llegar al CP
 		if(route.size()>=2){
 			Position CPpos_next;
 			std::list<Route>::iterator it = route.begin();
@@ -129,7 +129,7 @@ Flight::update(float delta_t)
 
 
 	}else{
-			inclination = 0.0;
+		inclination = 0.0;
 	}
 
 	last_pos = pos;
@@ -143,7 +143,7 @@ Flight::update(float delta_t)
 //	if(pos.distance(last_pos) > pos.distance(CPpos))
 //		route.pop_front();
 
-//	if(pos.distance(CPpos)<DIST_POINT)
+	//if(pos.distance(CPpos)<DIST_POINT)
 	if(pos.distance(CPpos)<DIST_POINT || pos.distanceXY(CPpos)<=distXY_CP)
 		route.pop_front();
 

@@ -175,6 +175,8 @@ set
 -
 string
 -
+type_traits
+-
 vector
 -
 gtest/gtest-message.h
@@ -234,6 +236,8 @@ stdlib.h
 string.h
 -
 memory
+-
+type_traits
 -
 sys/types.h
 -
@@ -299,7 +303,7 @@ acxx_demangle.h
 -
 
 /home/alberto/Documentos/git_ATC/ATCSim/build/googletest-prefix/src/googletest/googletest/src/gtest_main.cc
-stdio.h
+cstdio
 -
 gtest/gtest.h
 /home/alberto/Documentos/git_ATC/ATCSim/build/googletest-prefix/src/googletest/googletest/src/gtest/gtest.h

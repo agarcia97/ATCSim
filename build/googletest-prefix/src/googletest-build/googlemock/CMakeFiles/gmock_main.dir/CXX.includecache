@@ -190,12 +190,6 @@ gmock/internal/gmock-internal-utils.h
 
 /home/alberto/Documentos/git_ATC/ATCSim/build/googletest-prefix/src/googletest/googlemock/include/gmock/internal/custom/gmock-port.h
 
-/home/alberto/Documentos/git_ATC/ATCSim/build/googletest-prefix/src/googletest/googlemock/include/gmock/internal/gmock-generated-internal-utils.h
-gmock/internal/gmock-port.h
-/home/alberto/Documentos/git_ATC/ATCSim/build/googletest-prefix/src/googletest/googlemock/include/gmock/internal/gmock/internal/gmock-port.h
-gtest/gtest.h
-/home/alberto/Documentos/git_ATC/ATCSim/build/googletest-prefix/src/googletest/googlemock/include/gmock/internal/gtest/gtest.h
-
 /home/alberto/Documentos/git_ATC/ATCSim/build/googletest-prefix/src/googletest/googlemock/include/gmock/internal/gmock-internal-utils.h
 stdio.h
 -
@@ -203,8 +197,6 @@ ostream
 -
 string
 -
-gmock/internal/gmock-generated-internal-utils.h
-/home/alberto/Documentos/git_ATC/ATCSim/build/googletest-prefix/src/googletest/googlemock/include/gmock/internal/gmock/internal/gmock-generated-internal-utils.h
 gmock/internal/gmock-port.h
 /home/alberto/Documentos/git_ATC/ATCSim/build/googletest-prefix/src/googletest/googlemock/include/gmock/internal/gmock/internal/gmock-port.h
 gtest/gtest.h
@@ -403,6 +395,8 @@ set
 -
 string
 -
+type_traits
+-
 vector
 -
 gtest/gtest-message.h
@@ -462,6 +456,8 @@ stdlib.h
 string.h
 -
 memory
+-
+type_traits
 -
 sys/types.h
 -

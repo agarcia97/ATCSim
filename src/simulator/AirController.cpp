@@ -202,9 +202,9 @@ AirController::doWork()
   r1.pos = pos1;
   r1.speed = 100.0;
   r2.pos = pos2;
-  r2.speed = 19.0;
+  r2.speed = 70.0;
   r3.pos = pos3;
-  r3.speed = 15.0;
+  r3.speed = 10.0;
 
   //Route circuito1
   c1_0.pos = pos1_0;
