@@ -57,8 +57,6 @@ gtest/internal/gtest-port.h
 googletest-prefix/src/googletest/googletest/include/gtest/gtest/internal/gtest-port.h
 
 googletest-prefix/src/googletest/googletest/include/gtest/gtest-param-test.h
-gtest/internal/gtest-port.h
-googletest-prefix/src/googletest/googletest/include/gtest/gtest/internal/gtest-port.h
 utility
 -
 gtest/internal/gtest-internal.h
@@ -67,6 +65,8 @@ gtest/internal/gtest-param-util.h
 googletest-prefix/src/googletest/googletest/include/gtest/gtest/internal/gtest-param-util.h
 gtest/internal/gtest-param-util-generated.h
 googletest-prefix/src/googletest/googletest/include/gtest/gtest/internal/gtest-param-util-generated.h
+gtest/internal/gtest-port.h
+googletest-prefix/src/googletest/googletest/include/gtest/gtest/internal/gtest-port.h
 
 googletest-prefix/src/googletest/googletest/include/gtest/gtest-printers.h
 functional

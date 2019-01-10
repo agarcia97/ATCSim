@@ -1,23 +1,23 @@
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/alberto/Documentos/git_ATC/ATCSim/build/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_53a0e/fast"
+Run Build Command:"/usr/bin/make" "cmTC_7f463/fast"
 make[3]: se entra en el directorio '/home/alberto/Documentos/git_ATC/ATCSim/build/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_53a0e.dir/build.make CMakeFiles/cmTC_53a0e.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_7f463.dir/build.make CMakeFiles/cmTC_7f463.dir/build
 make[4]: se entra en el directorio '/home/alberto/Documentos/git_ATC/ATCSim/build/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_53a0e.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_53a0e.dir/CheckSymbolExists.c.o   -c /home/alberto/Documentos/git_ATC/ATCSim/build/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_53a0e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53a0e.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_53a0e.dir/CheckSymbolExists.c.o  -o cmTC_53a0e 
-CMakeFiles/cmTC_53a0e.dir/CheckSymbolExists.c.o: En la función `main':
+Building C object CMakeFiles/cmTC_7f463.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7f463.dir/CheckSymbolExists.c.o   -c /home/alberto/Documentos/git_ATC/ATCSim/build/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7f463
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f463.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_7f463.dir/CheckSymbolExists.c.o  -o cmTC_7f463 
+CMakeFiles/cmTC_7f463.dir/CheckSymbolExists.c.o: En la función `main':
 CheckSymbolExists.c:(.text+0x1b): referencia a `pthread_create' sin definir
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_53a0e.dir/build.make:97: recipe for target 'cmTC_53a0e' failed
-make[4]: *** [cmTC_53a0e] Error 1
+CMakeFiles/cmTC_7f463.dir/build.make:97: recipe for target 'cmTC_7f463' failed
+make[4]: *** [cmTC_7f463] Error 1
 make[4]: se sale del directorio '/home/alberto/Documentos/git_ATC/ATCSim/build/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_53a0e/fast' failed
-make[3]: *** [cmTC_53a0e/fast] Error 2
+Makefile:126: recipe for target 'cmTC_7f463/fast' failed
+make[3]: *** [cmTC_7f463/fast] Error 2
 make[3]: se sale del directorio '/home/alberto/Documentos/git_ATC/ATCSim/build/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp'
 
 File /home/alberto/Documentos/git_ATC/ATCSim/build/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -38,22 +38,22 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/alberto/Documentos/git_ATC/ATCSim/build/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_621e6/fast"
+Run Build Command:"/usr/bin/make" "cmTC_fa30b/fast"
 make[3]: se entra en el directorio '/home/alberto/Documentos/git_ATC/ATCSim/build/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_621e6.dir/build.make CMakeFiles/cmTC_621e6.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_fa30b.dir/build.make CMakeFiles/cmTC_fa30b.dir/build
 make[4]: se entra en el directorio '/home/alberto/Documentos/git_ATC/ATCSim/build/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_621e6.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_621e6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_621e6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_621e6.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_621e6.dir/CheckFunctionExists.c.o  -o cmTC_621e6 -lpthreads 
+Building C object CMakeFiles/cmTC_fa30b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_fa30b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fa30b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa30b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_fa30b.dir/CheckFunctionExists.c.o  -o cmTC_fa30b -lpthreads 
 /usr/bin/ld: no se puede encontrar -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_621e6.dir/build.make:97: recipe for target 'cmTC_621e6' failed
-make[4]: *** [cmTC_621e6] Error 1
+CMakeFiles/cmTC_fa30b.dir/build.make:97: recipe for target 'cmTC_fa30b' failed
+make[4]: *** [cmTC_fa30b] Error 1
 make[4]: se sale del directorio '/home/alberto/Documentos/git_ATC/ATCSim/build/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_621e6/fast' failed
-make[3]: *** [cmTC_621e6/fast] Error 2
+Makefile:126: recipe for target 'cmTC_fa30b/fast' failed
+make[3]: *** [cmTC_fa30b/fast] Error 2
 make[3]: se sale del directorio '/home/alberto/Documentos/git_ATC/ATCSim/build/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp'
 
 

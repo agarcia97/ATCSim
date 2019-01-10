@@ -71,6 +71,20 @@ IceComms.h
 /home/alberto/Documentos/git_ATC/ATCSim/src/simulator/AirController.h
 Singleton.h
 /home/alberto/Documentos/git_ATC/ATCSim/src/simulator/Singleton.h
+Airport.h
+/home/alberto/Documentos/git_ATC/ATCSim/src/simulator/Airport.h
+Flight.h
+/home/alberto/Documentos/git_ATC/ATCSim/src/simulator/Flight.h
+Position.h
+/home/alberto/Documentos/git_ATC/ATCSim/src/simulator/Position.h
+list
+-
+fstream
+-
+cmath
+-
+Common.h
+/home/alberto/Documentos/git_ATC/ATCSim/src/simulator/Common.h
 
 /home/alberto/Documentos/git_ATC/ATCSim/src/simulator/Airport.h
 Singleton.h

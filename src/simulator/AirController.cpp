@@ -107,9 +107,6 @@ AirController::freeCP_2(std::list<Flight*> flights, Position pos_1, Position pos
   return free;
 }
 
-
-
-
 void
 AirController::doWork()
 {
@@ -344,27 +341,6 @@ AirController::doWork()
   c4_14.speed = SPEED;
   c4_15.pos = pos4_15;
   c4_15.speed = SPEED;
-
-
-
-/*
-  Position posaux(5000.0, 0.0, 2000.0);
-  Position posaux2(5000.0, -3000.0, 2000.0);
-  Position posaux3(8500.0, -3000.0, 2000.0);
-  Position posaux4(8500.0, 0.0, 2000.0);
-  Position posaux5(15000.0, 15000.0, 2000.0);
-  raux.pos = posaux;
-  raux.speed = 150.0;
-  raux2.pos = posaux2;
-  raux2.speed = 500.0;
-  raux3.pos = posaux3;
-  raux3.speed = 15.0;
-  raux4.pos = posaux4;
-  raux4.speed = 500.0;
-  raux5.pos = posaux5;
-  raux5.speed = 500.0;
-//&& (*it)->getPosition().get_x()>=AIRPORT_DISTANCE_MAX*cos(0.25*M_PI) && (*it)->getPosition().get_y()>=0
-*/
 
 
   for(it = flights.begin(); it!=flights.end(); ++it){
