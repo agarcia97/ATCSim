@@ -45,6 +45,7 @@ AirController::~AirController() {
 	// TODO Auto-generated destructor stub
 }
 
+
 bool
 AirController::anyland(std::list<Flight*> flights, std::string id)
 {
@@ -106,6 +107,7 @@ AirController::freeCP_2(std::list<Flight*> flights, Position pos_1, Position pos
   }
   return free;
 }
+
 
 void
 AirController::doWork()
@@ -191,14 +193,14 @@ AirController::doWork()
   Position pos4_15(5320.0, -4130.0, 1060.0);
 
 
-  Route r0, r1, r2, r3, raux, raux2, raux3, raux4, raux5;
+  Route r0, r1, r2, r3;
   Route c1_0, c1_1, c1_2, c1_3, c1_4, c1_5, c1_6, c1_7, c1_8, c1_9, c1_10, c1_11, c1_12, c1_13, c1_14, c1_15;
   Route c2_0, c2_1, c2_2, c2_3, c2_4, c2_5, c2_6, c2_7, c2_8, c2_9, c2_10, c2_11, c2_12, c2_13, c2_14, c2_15;
   Route c3_0, c3_1, c3_2, c3_3, c3_4, c3_5, c3_6, c3_7, c3_8, c3_9, c3_10, c3_11, c3_12, c3_13, c3_14, c3_15;
   Route c4_0, c4_1, c4_2, c4_3, c4_4, c4_5, c4_6, c4_7, c4_8, c4_9, c4_10, c4_11, c4_12, c4_13, c4_14, c4_15;
 
   r0.pos = pos0;
-  r0.speed = SPEED;
+  r0.speed = 150.0;
   r1.pos = pos1;
   r1.speed = 100.0;
   r2.pos = pos2;
