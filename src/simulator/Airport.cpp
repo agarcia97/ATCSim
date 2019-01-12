@@ -206,6 +206,7 @@ Airport::step()
 	{
 		max_flights += INC_PEN;
 		//std::cerr<<"Increase flights in "<<INC_PEN<<" to "<<max_flights<<std::endl;
+		std::cerr<<"//*** Level=" <<max_flights <<" Points=" <<points <<std::endl;
 
 	 	acum_ = 0;
 	}

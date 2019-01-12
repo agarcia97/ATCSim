@@ -32,7 +32,7 @@
 #include "Common.h"
 
 #define SPEED 220.0f //velocidad en los circuitos
-#define DIST 900.0f //distancia entre avion y pos2, para aterrizar(600 es seguro)
+//#define DIST 1300.0f //distancia entre avion y pos2, para aterrizar(600 es seguro, cuando velocidad de aterrizar era 19m/s)
 
 namespace atcsim{
 
@@ -60,9 +60,10 @@ AirController::anyland(std::list<Flight*> flights, std::string id)
 
   while (landing!=true && it!=flights.end()){
     Position pos_aux = (*it)->getRoute()->front().pos;
-    if((pos_aux.distance(pos0)==0 && (*it)->getPosition().distance(pos0)<=dist1 && (*it)->getId()!=id)
+/*    if((pos_aux.distance(pos0)==0 && (*it)->getPosition().distance(pos0)<=dist1 && (*it)->getId()!=id)
         || (pos_aux.distance(pos1)==0)
-        || (pos_aux.distance(pos2)==0 && (*it)->getPosition().distance(pos2)>=DIST)){
+        || (pos_aux.distance(pos2)==0 && (*it)->getPosition().distance(pos2)>=DIST)){*/
+    if(pos_aux.distance(pos0)==0 && (*it)->getPosition().distance(pos0)<=dist1 && (*it)->getId()!=id){
       landing = true;
     }
     it++;
